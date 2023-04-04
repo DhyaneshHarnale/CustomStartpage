@@ -1,11 +1,11 @@
-const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
-setInterval(displayclock, 1000)
+setInterval(displayclock, 1)
 function displayclock () {
     let time = new Date();
     let hrs = time.getHours();
     let min = time.getMinutes();
-    let dat = time.getDate()
+    let dat = time.getDate();
     let mon = months[time.getMonth()];
 
     // if (hrs > 12) {
