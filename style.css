@@ -109,3 +109,9 @@ a {
 a:hover {
   color: rgba(255, 255, 255, 0.3);
 }
+
+ul {
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  padding: 15px;
+  border-radius: 13px;
+}
