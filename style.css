@@ -113,5 +113,6 @@ a:hover {
 ul {
   border: 2px solid rgba(255, 255, 255, 0.18);
   padding: 15px;
+  width: 175px;
   border-radius: 13px;
 }
