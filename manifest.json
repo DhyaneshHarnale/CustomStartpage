@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "TheOPGuy's Custom Startpage",
-    "version": "1.0.0",
+    "version": "6.9",
     "description": "Aesthetic, minimal and..... good.",
     "chrome_url_overrides": {
       "newtab": "index.html"
