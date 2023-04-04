@@ -1,103 +1,113 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="chrome.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="chrome.png" type="image/x-icon" />
     <title>Start Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <!-- Shows time and an anime slogan -->
-        <div class="box-1">
-            <p class="slogan">People's lives don't end when they die, it ends when they lose faith.</p>
-            <p id="clock">10:10</p>
-            <script src="scripts/clock.js"></script>
+      <!-- Shows time and an anime slogan -->
+      <div class="box-1">
+        <p class="slogan">
+          People's lives don't end when they die, it ends when they lose faith.
+        </p>
+        <p id="clock">10:10</p>
+        <script src="scripts/clock.js"></script>
+      </div>
+
+      <!-- Add a search box which searches on google... -->
+      <div class="search-box">
+        <form action="https://duckduckgo.com/?q" method="GET" target="_blank">
+          <input
+            class="google"
+            name="q"
+            type="search"
+            placeholder="search duck duck go..."
+            autocomplete="off"
+          />
+        </form>
+      </div>
+
+      <!-- All the bookmarks -->
+      <div class="box-3">
+        <h1>かっこいいね?</h1>
+        <div class="bookmarks">
+          <ul>
+            <li class="group">cool stuff</li>
+            <li>
+              <a href="https://reddit.com">reddit</a>
+            </li>
+            <li>
+              <a href="https://zoro.to">zoro</a>
+            </li>
+            <li>
+              <a href="https://hotstar.com">hotstar</a>
+            </li>
+            <li>
+              <a href="https://www.primevideo.com/">primevideo</a>
+            </li>
+            <li>
+              <a href="https://chat.openai.com">chat gpt</a>
+            </li>
+          </ul>
+
+          <ul>
+            <li class="group">reddit</li>
+            <li>
+              <a href="https://reddit.com/r/startpages">r/startpages</a>
+            </li>
+            <li>
+              <a href="https://reddit.com/r/unixporn">r/unixporn</a>
+            </li>
+            <li>
+              <a href="https://reddit.com/r/vimporn">r/vimporn</a>
+            </li>
+            <li>
+              <a href="https://reddit.com/r/linux">r/linux</a>
+            </li>
+            <li>
+              <a href="https://www.reddit.com/r/MechanicalKeyboards/"
+                >r/mechkeyboards</a
+              >
+            </li>
+          </ul>
+
+          <ul>
+            <li class="group">devshits</li>
+            <li>
+              <a href="https://www.w3schools.com/">w3schools</a>
+            </li>
+            <li>
+              <a href="https://github.com">github</a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/">mdn docs</a>
+            </li>
+            <li>
+              <a href="https://getbootstrap.com">bootstrap</a>
+            </li>
+          </ul>
+
+          <ul>
+            <li class="group">anime</li>
+            <li>
+              <a href="https://zoro.to/watch/one-piece-100">one piece</a>
+            </li>
+            <li>
+              <a href="https://zoro.to/watch/baki-2649">baki</a>
+            </li>
+            <li>
+              <a href="https://zoro.to/watch/dragon-ball-z-325"
+                >dragon ball z</a
+              >
+            </li>
+          </ul>
         </div>
-    
-        <!-- Add a search box which searches on google... -->
-        <div class="search-box">
-            <form action="https://duckduckgo.com/?q" method="GET" target="_blank">
-                <input class="google" name="q" type="search" placeholder="search duck duck go..." autocomplete="off"/>
-            </form>
-        </div>
-    
-        <!-- All the bookmarks -->
-        <div class="box-3">
-            <h1>かっこいいね?</h1>
-            <div class="bookmarks">
-                <ul>
-                    <li class="group">cool stuff</li>
-                    <li>
-                        <a href="https://reddit.com">reddit</a>
-                    </li>
-                    <li>
-                        <a href="https://zoro.to">zoro</a>
-                    </li>
-                    <li>
-                        <a href="https://hotstar.com">hotstar</a>
-                    </li>
-                    <li>
-                        <a href="https://www.primevideo.com/">primevideo</a>
-                    </li>
-                    <li>
-                        <a href="https://chat.openai.com">chat gpt</a>
-                    </li>
-                </ul>
-        
-                <ul>
-                    <li class="group">reddit</li>
-                    <li>
-                        <a href="https://reddit.com/r/startpages">r/startpages</a>
-                    </li>
-                    <li>
-                        <a href="https://reddit.com/r/unixporn">r/unixporn</a>
-                    </li>
-                    <li>
-                        <a href="https://reddit.com/r/vimporn">r/vimporn</a>
-                    </li>
-                    <li>
-                        <a href="https://reddit.com/r/linux">r/linux</a>
-                    </li>
-                    <li>
-                        <a href="https://www.reddit.com/r/MechanicalKeyboards/">r/mechkeyboards</a>
-                    </li>
-                </ul>
-        
-                <ul>
-                    <li class="group">devshits</li>
-                    <li>
-                        <a href="https://www.w3schools.com/">w3schools</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com">github</a>
-                    </li>
-                    <li>
-                        <a href="https://developer.mozilla.org/en-US/">mdn docs</a>
-                    </li>
-                    <li>
-                        <a href="https://getbootstrap.com">bootstrap</a>
-                    </li>
-                </ul>
-        
-                <ul>
-                    <li class="group">anime</li>
-                    <li>
-                        <a href="https://zoro.to/watch/one-piece-100">one piece</a>
-                    </li>
-                    <li>
-                        <a href="https://zoro.to/watch/baki-2649">baki</a>
-                    </li>
-                    <li>
-                        <a href="https://zoro.to/watch/dragon-ball-z-325">dragon ball z</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
